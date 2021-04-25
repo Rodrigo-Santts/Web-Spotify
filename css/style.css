@@ -3,3 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background: url(/img/capa.png), 
+                url(/img/ruido.png),
+                linear-gradient(50deg,#e42c76 15%,#BF379A,#A72FAF,#912DBC);
+    background-attachment: fixed;
+}
+
+#navbar-bg{
+    background-color: rgba(0, 0, 0,0.6);
+    padding: 15px 0px;
+}
+
+ul#item-Nav a{
+    color: #fff;
+    font-weight: bold;
+}
+
+ul#item-Nav a:hover{
+    color:#1EC433;
+    transition: 0.3s;
+}
