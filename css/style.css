@@ -11,6 +11,10 @@ body{
     background-attachment: fixed;
 }
 
+ul{
+    list-style: none;
+}
+
                 /* Formatação NavBar */
 
 #navbar-bg{
@@ -120,6 +124,10 @@ h3{
 
                 /**** Sessão de recursos ****/
 
+#recursos{
+    margin: 50px;
+}
+
 #recursos h2,h3{
     color: #99F1E3;
     padding: 10px;
@@ -134,4 +142,54 @@ h3{
 #img-recursos{
     transform: rotate(35deg);
     margin-top: 95px;
+}
+
+ /* Rodapé */
+
+#rodape{
+    margin: 0;
+    padding: 50px 0 0 0;
+    background-color: #000;
+}
+
+#rodape ul li{
+    padding: 10px;
+} 
+
+#rodape ul li  a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#rodape ul li a:hover {
+    color: #1EC433;
+}
+
+.title-li-footer{
+    color:#919496;
+    text-transform: uppercase;
+}
+
+#nacionalidade ul{
+    margin: 0 !important;
+}
+
+#nacionalidade a{
+    font-size: 0.8em;
+    color: #919496;
+    text-decoration: none;
+}
+
+#nacionalidade a:hover, #li-footer a:hover{
+    color: #1EC433 !important;
+}
+
+#li-footer li{
+    display: inline-block;
+    color: #919496;
+}
+
+#li-footer a, #li-footer span{
+    font-size: 0.8em;
+    color: #919496 !important;
 }
