@@ -11,6 +11,8 @@ body{
     background-attachment: fixed;
 }
 
+                /* Formatação NavBar */
+
 #navbar-bg{
     background-color: rgba(0, 0, 0,0.6);
     padding: 15px 0px;
@@ -24,4 +26,112 @@ ul#item-Nav a{
 ul#item-Nav a:hover{
     color:#1EC433;
     transition: 0.3s;
+}
+
+.divisor, .divisor-hr{
+    color: rgb(255, 255, 255);
+    margin: 9px 15px;
+}
+
+.navbar-dark .navbar-toggler{
+    border: 1px solid rgb(224, 210, 210);
+}
+
+.navbar-dark .navbar-toggler:hover{
+    border: 1px solid rgb(65, 141, 58);
+    transition: 0.3s;
+}
+
+            /* Sessão principal */
+
+
+#home h1{
+    font-weight: 700;
+    color: #ffff;
+}
+
+#home button{
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: .95em;
+
+}
+
+.btn-outline-light:not(:disabled):not(.disabled).active, .btn-outline-light:not(:disabled):not(.disabled):active, .show > .btn-outline-light.dropdown-toggle{
+    background-color:#821CF8;
+    border-color: #821CF8;
+    color: #fff;
+}
+
+@media (max-width: 575.98px) {
+    #container-top{
+        padding: 0 10px;
+    }
+
+    #home h1{
+        font-size: 2em;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    #home button{
+        margin-bottom: 5px;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+    #home h1{
+        font-size: 4em;
+    }
+}
+
+@media (max-width: 1000px){
+    #divteste{
+        padding-left:0;
+    }   
+}
+/* Formatação sessão de Serviços */
+
+.servicos{
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.servicos-albuns{
+    padding: 10px 0;
+}
+
+.cor-title{
+    color: #821CF8;
+}
+
+h2{
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+                /**** Sessão de recursos ****/
+
+#recursos h2,h3{
+    color: #99F1E3;
+    padding: 10px;
+}
+
+#recursos p{
+    color: rgba(255, 255, 255, 0.815);
+    font-weight: 600;
+}
+
+
+#img-recursos{
+    transform: rotate(35deg);
+    margin-top: 95px;
 }
