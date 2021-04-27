@@ -49,9 +49,10 @@ ul#item-Nav a:hover{
             /* Sessão principal */
 
 
-#home h1{
+#home h1, .carousel-home h1{
     font-weight: 700;
     color: #ffff;
+    padding: 0px 0px 15px 0;
 }
 
 #home button{
@@ -62,6 +63,12 @@ ul#item-Nav a:hover{
 }
 
 .btn-outline-light:not(:disabled):not(.disabled).active, .btn-outline-light:not(:disabled):not(.disabled):active, .show > .btn-outline-light.dropdown-toggle{
+    background-color:#821CF8;
+    border-color: #821CF8;
+    color: #fff;
+}
+
+.carousel-home button{
     background-color:#821CF8;
     border-color: #821CF8;
     color: #fff;
@@ -82,6 +89,25 @@ ul#item-Nav a:hover{
         margin-bottom: 5px;
     }
 
+    #nacionalidade{
+        margin-right: 50px;
+    }
+
+    .img-spotify-footer{
+        width: 150px;
+        margin-bottom: 15px;
+    }
+
+    .redes-footer ul li{
+        display: inline-block;
+    }
+
+    .redes-footer ul li img{
+        width: 45px;
+        margin: 0 auto;
+    }
+
+    
 }
 
 @media (max-width: 767.98px) {
