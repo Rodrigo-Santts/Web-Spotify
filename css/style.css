@@ -7,7 +7,7 @@
 body{
     background: url(/img/capa.png), 
                 url(/img/ruido.png),
-                linear-gradient(50deg,#e42c76 15%,#BF379A,#A72FAF,#912DBC);
+                linear-gradient(50deg,#03A78F 10%,#088C75,#04573E,#04392F );
     background-attachment: fixed;
 }
 
